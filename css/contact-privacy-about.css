@@ -1,0 +1,128 @@
+/* Variables */
+:root {
+  --primary: #4737ff;
+  --secondary: #f89500;
+  --tertiary: #e2e2e2;
+  --white: #fff;
+  --black: #000;
+  --text: #1f1f1f;
+  --sub-menu: #3c2bf3;
+  --coin: #707070;
+  --table-value-1: #f5f5f5;
+  --table-value-2: #eceaea;
+  --whatsapp: #009147;
+  --facebook: #0161d9;
+  --twitter: #00a7e7;
+  --instagram: #f61c47;
+}
+/* MOBILE STYLES */
+
+/* Start Privacy and about us */
+.privacy,
+.about-us {
+  margin-top: 8rem;
+  padding: 3rem;
+  overflow: hidden;
+}
+.privacy h2,
+.about-us h2 {
+  margin: 2rem 0;
+}
+.privacy li {
+  list-style: outside;
+  color: var(--text);
+  padding: 0 2rem;
+  margin: 1rem 0;
+  line-height: 2.5rem;
+}
+.leading {
+  margin-bottom: 2rem;
+}
+
+/* End Privacy and about us */
+
+/* Start Contact */
+.contact-main {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact-main_title {
+  margin: 12rem 0 2.5rem 0;
+}
+
+.contact-main_title h1 {
+  font-size: 2.5rem;
+}
+.contact-main_form {
+  align-items: center;
+  text-align: center;
+}
+.contact-main_form input,
+.contact-main_form textarea {
+  border: 2px solid var(--primary);
+  border-radius: 2rem;
+  height: 3rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  outline: none;
+  width: 30rem;
+  color: var(--primary);
+  display: inline-block;
+}
+
+.contact-main_form textarea {
+  height: 20rem;
+  border-radius: 3rem;
+}
+
+input.button {
+  justify-content: center;
+  line-height: 30%;
+  color: var(--white);
+}
+/* End Contact */
+
+/* SMALL TABLETS STYLES*/
+@media screen and (min-width: 600px) {
+  .contact-main_form textarea {
+    width: 53rem;
+  }
+  .contact-main_form input {
+    width: 26rem;
+  }
+  .contact-main_form {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+/* LARGER TABLETS AND LAPTOPS STYLES */
+@media screen and (min-width: 920px) {
+  .privacy,
+  .about-us {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 8rem;
+  }
+  .contact-main_title {
+    margin-top: 14rem;
+  }
+  .contact-main_form {
+    width: 70%;
+  }
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 1200px) {
+  .privacy,
+  .about-us {
+    width: 50%;
+  }
+  .contact-main_form {
+    width: 50%;
+  }
+}
