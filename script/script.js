@@ -62,10 +62,9 @@ dateShow.innerHTML = 'Cotação de ' + currenDay;
 const pointer = document.querySelector('.cot-estrangeira');
 const input = document.querySelector('.js-coin--dolar');
 
-pointer.addEventListener('click', function () {
-  input.addEventListener('input', '');
-  console.log('esta funcionando');
-});
+// pointer.addEventListener('click', function () {
+//   input.addEventListener('input', '');
+// });
 //
 
 // permitir apenas números nos inputs
@@ -78,4 +77,7 @@ function somenteNumeros(num) {
   }
 }
 
-const inputLocal = querySelector('#js-coin--nacional');
+let inputLocal = document.querySelector('#js-coin--nacional');
+if (Number.isNaN(inputLocal)) inputLocal = 0;
+
+console.log(inputLocal);
