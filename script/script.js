@@ -76,8 +76,3 @@ function somenteNumeros(num) {
     campo.value = '';
   }
 }
-
-let inputLocal = document.querySelector('#js-coin--nacional');
-if (Number.isNaN(inputLocal)) inputLocal = 0;
-
-console.log(inputLocal);
