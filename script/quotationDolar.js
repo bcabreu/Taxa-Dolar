@@ -22,8 +22,8 @@ function calculate(currency) {
         coinNacional.value = (valor / rate).toFixed(2);
       } else {
         coinNacional.value = (valor * rate).toFixed(2);
-        let transform = Number(coinNacional.value);
-        if (Number.isNaN(transform)) transform = 0;
+        // let transform = Number(coinNacional.value);
+        // if (Number.isNaN(transform)) transform = 0;
         // const coinTransform = Number(coinNacional.value);
       }
 
