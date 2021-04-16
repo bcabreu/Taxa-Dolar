@@ -1,0 +1,9 @@
+Sitemap: https://taxadolar.com/sitemap.xml
+
+User-agent: *
+Disallow: *cotacao.txt$
+Disallow: */cotacao.txt$
+Disallow: /pages/politica-de-privacidade.html
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
