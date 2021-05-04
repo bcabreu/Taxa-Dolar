@@ -512,6 +512,22 @@ img.menu__mobile--close_menu {
 }
 /* end footer */
 
+/* start ads */
+.ads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+.ads img {
+  width: 100%;
+  margin-top: 0.1rem;
+}
+
+/* end ads */
+
 /* SMALL TABLETS STYLES*/
 @media screen and (min-width: 600px) {
   .cot-nacional,
@@ -748,7 +764,3 @@ img.menu__mobile--close_menu {
   }
 }
 /* end footer */
-
-/* START HEADER */
-
-/* Grid Testing */
