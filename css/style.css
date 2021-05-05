@@ -415,6 +415,15 @@ img.menu__mobile--close_menu {
 .today {
   font-weight: 800;
 }
+/* Retirar barra de rolagem do input */
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+/* Retirar barra de rolagem do input */
 /* end variation_coin */
 
 /* start call access blog */
@@ -519,9 +528,10 @@ img.menu__mobile--close_menu {
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  width: 100%;
 }
-.ads img {
+.ads a img {
   width: 100%;
   margin-top: 0.1rem;
 }

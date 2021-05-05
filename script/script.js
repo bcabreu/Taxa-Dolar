@@ -68,11 +68,11 @@ const input = document.querySelector('.js-coin--dolar');
 //
 
 // permitir apenas números nos inputs
-function somenteNumeros(num) {
-  const input = /[^0-9]/;
-  input.lastIndex = 0;
-  const campo = num;
-  if (input.test(campo.value)) {
-    campo.value = '';
-  }
-}
+// function somenteNumeros(num) {
+//   const input = /[^0-9]/;
+//   input.lastIndex = 0;
+//   const campo = num;
+//   if (input.test(campo.value)) {
+//     campo.value = '';
+//   }
+// }
