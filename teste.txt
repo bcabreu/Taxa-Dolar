@@ -1,3 +1,5 @@
 Deploy via SSH para o servidor Hostgator pegando o versionamento no git.
 
 Muito Massa conseguimos. Parabéns Bruno vc é inteligente demais
+
+mais um teste de versionamento para com deploy para o servidor github
