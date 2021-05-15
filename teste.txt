@@ -1,0 +1,3 @@
+Deploy via SSH para o servidor Hostgator pegando o versionamento no git.
+
+Muito Massa conseguimos. Parabéns Bruno vc é inteligente demais
