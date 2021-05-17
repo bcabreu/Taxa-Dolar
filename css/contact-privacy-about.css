@@ -19,14 +19,16 @@
 
 /* Start Privacy and about us */
 .privacy,
-.about-us {
+.about-us,
+.disclaimer {
   margin-top: 8rem;
   padding: 3rem;
   overflow: hidden;
 }
-.privacy h2,
-.about-us h2 {
-  margin: 2rem 0;
+.privacy h1,
+.about-us h1,
+.disclaimer h1 {
+  margin: 4rem 0;
 }
 .privacy li {
   list-style: outside;
