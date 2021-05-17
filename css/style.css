@@ -443,7 +443,7 @@ input[type='number'] {
 #content-info {
   text-align: left;
   padding: 4rem;
-  padding-top: 12rem;
+  padding-top: 0.1rem;
   overflow: hidden;
 }
 #content-info h2 {
@@ -522,7 +522,8 @@ input[type='number'] {
 /* end footer */
 
 /* start ads */
-.ads {
+.ads,
+.ads-mobile {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -531,7 +532,8 @@ input[type='number'] {
   margin-top: 3rem;
   width: 100%;
 }
-.ads a img {
+.ads a img,
+.ads-mobile a img {
   width: 100%;
   margin-top: 0.1rem;
 }
@@ -544,6 +546,7 @@ input[type='number'] {
   .cot-estrangeira {
     width: 40rem;
   }
+
   .content-main__quotation input {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -558,6 +561,9 @@ input[type='number'] {
   }
   /* Start Info */
 
+  .ads-mobile {
+    display: none;
+  }
   .table {
     width: 40rem;
   }
