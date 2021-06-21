@@ -61,18 +61,3 @@ dateShow.innerHTML = 'Cotação de ' + currenDay;
 // Ao clicar em qualquer campo do quadrado de cotação ele vai ativar o input para digitar um valor
 const pointer = document.querySelector('.cot-estrangeira');
 const input = document.querySelector('.js-coin--dolar');
-
-// pointer.addEventListener('click', function () {
-//   input.addEventListener('input', '');
-// });
-//
-
-// permitir apenas números nos inputs
-// function somenteNumeros(num) {
-//   const input = /[^0-9]/;
-//   input.lastIndex = 0;
-//   const campo = num;
-//   if (input.test(campo.value)) {
-//     campo.value = '';
-//   }
-// }

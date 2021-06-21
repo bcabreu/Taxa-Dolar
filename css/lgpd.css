@@ -1,0 +1,28 @@
+/* start Banner LGPD */
+.lgpd {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  background-color: var(--secondary);
+  color: var(--white);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lgpd a {
+  color: var(--white);
+}
+.lgpd a:hover {
+  color: var(--primary);
+}
+.lgpd button {
+  background-color: var(--primary);
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+  padding: 10px 30px;
+}
+/* start Banner LGPD */
