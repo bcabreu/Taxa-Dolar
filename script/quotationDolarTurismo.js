@@ -72,6 +72,7 @@ function calculate(currency) {
   });
 }
 
+setInterval(calculate, 30000);
 //
 // function formatCurrency() {
 //   let input = document.querySelector('#js-coin--estrangeira');

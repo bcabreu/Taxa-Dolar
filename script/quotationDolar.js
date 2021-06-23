@@ -34,15 +34,16 @@ function calculate(currency) {
       // END VARIATION
 
       // START INFO
-      document.querySelector('.tax-information').innerHTML = (rate * 1).toFixed(
-        2
-      );
+      // document.querySelector('.tax-information').innerHTML = (rate * 1).toFixed(
+      //   2
+      // );
       document.querySelector('.today').innerHTML = `R$ ${(rate * 1).toFixed(
         2
       )}`;
       // END INFO
 
       // START TABLE
+
       document.querySelector('.convert-1').innerHTML = `R$ ${(rate * 1).toFixed(
         2
       )}`;
@@ -71,6 +72,8 @@ function calculate(currency) {
     });
   });
 }
+
+setInterval(calculate, 30000);
 
 // Chamando a Função para exibir a cotação assim que entrar na página
 // OBS: Não se pode esquecer de colocar o 'value' no HTML, senão não vai funcionar.

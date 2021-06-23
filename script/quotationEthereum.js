@@ -72,6 +72,7 @@ function calculate(currency) {
   });
 }
 
+setInterval(calculate, 30000);
 // Chamando a Função para exibir a cotação assim que entrar na página
 // OBS: Não se pode esquecer de colocar o 'value' no HTML, senão não vai funcionar.
 calculate();
