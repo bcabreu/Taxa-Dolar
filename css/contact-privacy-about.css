@@ -1,8 +1,9 @@
 /* Variables */
 :root {
-  --primary: #4737ff;
-  --secondary: #f89500;
+  --primary: #171429;
+  --secondary: #0bab51;
   --tertiary: #e2e2e2;
+  --quartiary: #221e34;
   --white: #fff;
   --black: #000;
   --text: #1f1f1f;
@@ -28,7 +29,12 @@
 .privacy h1,
 .about-us h1,
 .disclaimer h1 {
-  margin: 4rem 0;
+  margin: 5rem 0;
+}
+
+h2 {
+  margin-top: 2rem;
+  padding: 3rem 0;
 }
 .privacy li {
   list-style: outside;

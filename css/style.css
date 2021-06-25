@@ -1,8 +1,9 @@
 /* Variables */
 :root {
-  --primary: #4737ff;
-  --secondary: #f89500;
+  --primary: #171429;
+  --secondary: #0bab51;
   --tertiary: #e2e2e2;
+  --quartiary: #221e34;
   --white: #fff;
   --black: #000;
   --text: #1f1f1f;
@@ -37,6 +38,7 @@ body {
   background: var(--white);
   font-size: 1.4rem;
   min-height: 100vh;
+  background-color: var(--quartiary);
 }
 .button {
   background: var(--primary);
@@ -144,7 +146,7 @@ hr {
 
 .content-main_tipo-comercial-turismo a:link,
 .content-main_tipo-comercial-turismo a:visited {
-  color: var(--primary);
+  color: var(--tertiary);
 }
 
 .content-main_country img:hover,
@@ -157,14 +159,16 @@ hr {
 html {
   font-size: 62.5%;
 }
-h1,
+h1 {
+  color: var(--white);
+}
 h2,
 h3,
 h4,
 p,
 a,
 li {
-  color: var(--primary);
+  color: var(--secondary);
   font-weight: normal;
 }
 h1,
@@ -181,7 +185,7 @@ h4 {
 }
 .leading {
   font-size: 1.5rem;
-  color: var(--text);
+  color: var(--tertiary);
   line-height: 2.7rem;
 }
 
@@ -325,7 +329,7 @@ img.menu__mobile--close_menu {
   margin-bottom: 1rem;
 }
 .content-main p {
-  color: var(--primary);
+  color: var(--white);
   text-align: center;
   line-height: 2rem;
 }
@@ -363,6 +367,7 @@ img.menu__mobile--close_menu {
   color: var(--coin);
   display: inline-block;
   /* cursor: text; */
+  background-color: var(--primary);
 }
 .symbol {
   text-align: left;
@@ -374,6 +379,7 @@ img.menu__mobile--close_menu {
   color: var(--coin);
   border: none;
   outline: none;
+  background-color: var(--primary);
 }
 .content-main__quotation--real {
   align-items: right;
@@ -396,7 +402,7 @@ img.menu__mobile--close_menu {
 /* start variation_coin */
 #content-variation {
   min-height: 25vh;
-  background: var(--tertiary);
+  background: var(--primary);
   text-align: center;
   color: var(--secondary);
 }
@@ -428,14 +434,14 @@ input[type='number'] {
 
 /* start call access blog */
 #call-blog {
-  background: var(--tertiary);
+  background: var(--primary);
   padding: 3rem;
   text-align: center;
   margin-top: 2rem;
 }
 #call-blog h2 {
   margin-bottom: 1rem;
-  color: var(--primary);
+  color: var(--white);
 }
 /* end call access blog */
 
@@ -477,10 +483,12 @@ input[type='number'] {
   text-align: center;
 }
 .table-value--1 {
-  background-color: var(--table-value-1);
+  background-color: var(--quartiary);
+  color: var(--coin);
 }
 .table-value--2 {
-  background-color: var(--table-value-2);
+  background-color: var(--primary);
+  color: var(--coin);
 }
 /* End info */
 
@@ -552,6 +560,7 @@ input[type='number'] {
     margin-right: 1rem;
     height: 14rem;
     width: 27rem;
+    background-color: var(--primary);
   }
   .geral {
     display: grid;
