@@ -384,6 +384,10 @@ img.menu__mobile--close_menu {
 .content-main__quotation--real {
   align-items: right;
 }
+.ads p,
+.ads-mobile p {
+  color: var(--coin);
+}
 .content-main__ads {
   padding-top: 1rem;
 }

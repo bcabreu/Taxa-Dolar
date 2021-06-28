@@ -34,12 +34,12 @@ function calculate(currency) {
       // END VARIATION
 
       // START INFO
-      document.querySelector('.tax-information').innerHTML = (rate * 1).toFixed(
-        2
-      );
-      document.querySelector('.today').innerHTML = `R$ ${(rate * 1).toFixed(
-        2
-      )}`;
+      // document.querySelector('.tax-information').innerHTML = (rate * 1).toFixed(
+      //   2
+      // );
+      // document.querySelector('.today').innerHTML = `R$ ${(rate * 1).toFixed(
+      //   2
+      // )}`;
       // END INFO
 
       // START TABLE

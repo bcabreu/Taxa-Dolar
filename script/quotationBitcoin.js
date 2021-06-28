@@ -19,39 +19,31 @@ function calculate(currency) {
       const high = parseFloat(tax.BTC.high);
 
       if (currency == 'tax') {
-        coinNacional.value = (valor / rate).toFixed(2);
+        coinNacional.value = valor / rate;
       } else {
-        coinNacional.value = (valor * rate).toFixed(2);
+        coinNacional.value = valor * rate;
       }
 
       // START VARIATION
 
-      document.querySelector('.low').innerHTML = `R$ ${(low * 1).toFixed(2)}`;
-      document.querySelector('.today').innerHTML = `R$ ${(rate * 1).toFixed(
-        2
-      )}`;
-      document.querySelector('.high').innerHTML = `R$ ${(high * 1).toFixed(2)}`;
+      document.querySelector('.low').innerHTML = `R$ ${low * 1}`;
+      document.querySelector('.today').innerHTML = `R$ ${rate * 1}`;
+      document.querySelector('.high').innerHTML = `R$ ${high * 1}`;
       // END VARIATION
 
       // START INFO
-      document.querySelector('.tax-information').innerHTML = (rate * 1).toFixed(
-        2
-      );
-      document.querySelector('.today').innerHTML = `R$ ${(rate * 1).toFixed(
-        2
-      )}`;
+      // document.querySelector('.tax-information').innerHTML = (rate * 1).toFixed(
+      //   2
+      // );
+      // document.querySelector('.today').innerHTML = `R$ ${(rate * 1).toFixed(
+      //   2
+      // )}`;
       // END INFO
 
       // START TABLE
-      document.querySelector('.convert-1').innerHTML = `R$ ${(rate * 1).toFixed(
-        2
-      )}`;
-      document.querySelector('.convert-2').innerHTML = `R$ ${(rate * 2).toFixed(
-        2
-      )}`;
-      document.querySelector('.convert-3').innerHTML = `R$ ${(rate * 5).toFixed(
-        2
-      )}`;
+      document.querySelector('.convert-1').innerHTML = `R$ ${rate * 1}`;
+      document.querySelector('.convert-2').innerHTML = `R$ ${rate * 2}`;
+      document.querySelector('.convert-3').innerHTML = `R$ ${rate * 5}`;
       document.querySelector('.convert-4').innerHTML = `R$ ${(
         rate * 10
       ).toFixed(2)}`;
