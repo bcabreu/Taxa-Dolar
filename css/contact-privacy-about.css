@@ -38,7 +38,7 @@ h2 {
 }
 .privacy li {
   list-style: outside;
-  color: var(--text);
+  color: var(--table-value-1);
   padding: 0 2rem;
   margin: 1rem 0;
   line-height: 2.5rem;
